@@ -1,0 +1,44 @@
+body {
+    background-image: url(./background.avif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quotes-box {
+    width: 80vh;
+    height: 30vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 23px 34px -27px #253342 ;
+}
+
+.quotes-box h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    text-align: center;
+}
+
+.quotes-box h1 {
+    font-size: 24px;
+    color: #df3b00;
+    text-align: center;
+}
+
+button {
+    background-color: #003268;
+    color: #fff;
+    padding: 12px 40px;
+    cursor: pointer;
+}
