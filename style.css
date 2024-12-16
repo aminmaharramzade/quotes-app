@@ -12,7 +12,6 @@ section {
 }
 
 .quotes-box {
-    /* height: 30vh; */
     background-color: #fff;
     display: flex;
     flex-direction: column;
